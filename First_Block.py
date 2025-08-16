@@ -46,7 +46,7 @@ class BlockchainApp:
 
         # === Frame for block data input ===
 
-        data_frame = tk.LabelFrame(root, text=" Block Content ", 
+        data_frame = tk.LabelFrame(root, text=" Block Data ", 
                                    font=("Arial", 12, "bold"), fg="#3B2F2F", bg="#FFE5B4", bd=3)
         data_frame.pack(pady=10, padx=20, fill="x")
 
@@ -55,7 +55,7 @@ class BlockchainApp:
 
         # === Frame for transactions input ===
 
-        tx_frame = tk.LabelFrame(root, text=" Ledger Records ", 
+        tx_frame = tk.LabelFrame(root, text=" Block Transaction ", 
                                  font=("Arial", 12, "bold"), fg="#3B2F2F", bg="#FFE5B4", bd=3)
         tx_frame.pack(pady=10, padx=20, fill="x")
 
@@ -76,7 +76,7 @@ class BlockchainApp:
 
         # === Output area with BLACK border only for last block ===
 
-        output_frame = tk.LabelFrame(root, text=" Latest Block ", 
+        output_frame = tk.LabelFrame(root, text=" My Block ", 
                                   font=("Arial", 12, "bold"), fg="#3B2F2F", bg="#FFE5B4", bd=3)
         output_frame.pack(pady=10, padx=20, fill="both", expand=True)
 
